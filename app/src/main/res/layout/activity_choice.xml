@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5EDFD"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/botonOpciones"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/deteccion"
+        android:textColor="#1c1d21"
+        android:background="@drawable/boton_degradado"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/botonTracking"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/boton_degradado"
+        android:text="@string/seguimiento"
+        android:textColor="#1c1d21"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/botonReturn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/boton_degradado"
+        android:text="@string/volver"
+        android:textColor="#1c1d21"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5EDFD"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/botonOpciones"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/test_rapido"
+        android:textColor="#1c1d21"
+        android:background="@drawable/boton_degradado"
+        android:textStyle="bold"
+        android:textSize="17sp"/>
+
+
+    <Button
+        android:id="@+id/botonAjustes"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/boton_degradado"
+        android:text="@string/ajustes"
+        android:textColor="#1c1d21"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5EDFD"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollVertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textoBPM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="BPM SETTINGS:"
+                android:textColor="#6739B6"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/maxBPM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:text="Max. bpm:"
+                    android:textColor="#1c1d21"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/maxBPMNumber"
+                    android:layout_width="50dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/cuadro_texto"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:text="120"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/minBPM"
+                    android:layout_width="93dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:text="Min. bpm:"
+                    android:textColor="#1c1d21"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/minBPMNumber"
+                    android:layout_width="50dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="13dp"
+                    android:background="@drawable/cuadro_texto"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:text="45"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/resetBPM"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/boton_degradado"
+                android:text="RESET BPM"
+                android:textColor="#111111"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textoDeteccion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="DETECTION SETTINGS:"
+                android:textColor="#6739B6"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/maxTimeDetect"
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="40dp"
+                    android:text="Tracking time (hours):"
+                    android:textColor="#1c1d21"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/detectionTimer"
+                    android:layout_width="50dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/cuadro_texto"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:text="1"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/resetDetection"
+                android:layout_width="106dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/boton_degradado"
+                android:text="RESET TIMER"
+                android:textColor="#111111"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/botonReturn"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/boton_degradado"
+                android:text="@string/volver"
+                android:textColor="#1c1d21"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

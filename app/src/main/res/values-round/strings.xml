@@ -1,0 +1,12 @@
+<resources>
+    <string name="hello_world">From the Round world,\nHello, %1$s!</string>
+    <string name="test_rapido">ANGELADT</string>
+    <string name="historial">Historial</string>
+    <string name="ajustes">SETTINGS</string>
+    <string name="deteccion">DETECTION MODE</string>
+    <string name="seguimiento">TRACKING MODE</string>
+    <string name="volver">RETURN</string>
+    <string name="perfil">Perfil</string>
+    <string name="bpm">-- bpm</string>
+    <string name="midiendo">Un momento...</string>
+</resources>

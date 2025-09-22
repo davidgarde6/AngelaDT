@@ -1,0 +1,22 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Fondo blanco con borde negro y esquinas redondeadas -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF"/> <!-- color de fondo -->
+            <stroke
+                android:width="2dp"
+                android:color="#000000"/> <!-- borde negro -->
+            <corners android:radius="16dp"/> <!-- bordes redondeados -->
+        </shape>
+    </item>
+
+    <!-- Imagen PNG encima del fondo -->
+    <item>
+        <bitmap
+            android:src="@drawable/logo_angela"
+            android:gravity="center"
+            android:tileMode="disabled"/>
+    </item>
+
+</layer-list>
